@@ -46,6 +46,6 @@ def process_images(input_folder, output_folder):
             print(f"Skipping {filename}: Not 1920x1080")
 
 # Example usage
-input_folder = "D:\\_official_\\_MIT ADT_\\_SEMESTER 6_\\MP4\\dataset\\newTrain"   # Replace with actual folder path
-output_folder = "D:\\_official_\\_MIT ADT_\\_SEMESTER 6_\\MP4\\dataset\\modifyTest\\masks" # Replace with actual folder path
+input_folder = "D:\\_official_\\_MIT ADT_\\_SEMESTER 6_\\MP4\\dataset\\test\\images"   # Replace with actual folder path
+output_folder = "D:\\_official_\\_MIT ADT_\\_SEMESTER 6_\\MP4\\dataset\\Test-128x128\\images" # Replace with actual folder path
 process_images(input_folder, output_folder)
